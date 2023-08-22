@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.navBar {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    border-radius: 10px;
+
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: snow;
+
+}
+
+.navLink {
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}

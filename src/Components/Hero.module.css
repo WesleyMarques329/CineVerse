@@ -1,0 +1,82 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    position: relative;
+    margin-top: 1%;
+}
+
+.divImage {
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.divImage img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;
+    filter: brightness(40%);
+}
+
+.movieInfo {
+    margin-top: 25px;
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    font-family: 'Inter', sans-serif;
+    color: snow;
+    width: 550px;
+
+}
+
+h1 {
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    color: snow;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 540px;
+    left: 100px;
+    padding: 16px 48px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    background-color: #109ce9;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.customIframe {
+    z-index: 3;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    border-radius: 5px;
+}
+
+.divContainer {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: snow;
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.votingStars {
+    position: absolute;
+    top: 378px;
+    left: 193px;
+    color: yellow;
+}
